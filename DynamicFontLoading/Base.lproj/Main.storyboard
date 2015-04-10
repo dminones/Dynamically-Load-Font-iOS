@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ABCDFGHIJKLMNOPQRSTUVWXYZ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qY8-yc-18q">
+                                <rect key="frame" x="16" y="45" width="568" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="0eG-Ur-gdT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F3K-yV-D9x">
+                                <rect key="frame" x="16" y="251" width="568" height="30"/>
+                                <state key="normal" title="Load Boku2-Regular">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="loadFont:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o5s-fR-eI0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="16A-4Z-TY8">
+                                <rect key="frame" x="16" y="321" width="568" height="30"/>
+                                <state key="normal" title="Load KOZGOPRO-BOLD">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="loadFont:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Xv-so-H74"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="16A-4Z-TY8" firstAttribute="top" secondItem="F3K-yV-D9x" secondAttribute="bottom" constant="40" id="5HS-Ld-SMJ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="16A-4Z-TY8" secondAttribute="bottom" constant="249" id="KNm-zs-f81"/>
+                            <constraint firstItem="F3K-yV-D9x" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LNb-9V-8lq"/>
+                            <constraint firstItem="qY8-yc-18q" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="25" id="PvY-8T-peR"/>
+                            <constraint firstItem="16A-4Z-TY8" firstAttribute="leading" secondItem="F3K-yV-D9x" secondAttribute="leading" constant="12" id="Tdd-Xo-cLg"/>
+                            <constraint firstItem="F3K-yV-D9x" firstAttribute="leading" secondItem="qY8-yc-18q" secondAttribute="leading" id="WDK-kn-Cjy"/>
+                            <constraint firstItem="16A-4Z-TY8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="XLy-Oj-U0W"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="16A-4Z-TY8" secondAttribute="bottom" constant="249" id="XY9-Zr-Ckw"/>
+                            <constraint firstItem="16A-4Z-TY8" firstAttribute="top" secondItem="F3K-yV-D9x" secondAttribute="bottom" constant="40" id="n87-cB-LYI"/>
+                            <constraint firstItem="F3K-yV-D9x" firstAttribute="centerX" secondItem="qY8-yc-18q" secondAttribute="centerX" id="pmI-ev-Qp7"/>
+                            <constraint firstItem="16A-4Z-TY8" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="xps-o3-iMt"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="XY9-Zr-Ckw"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="qY8-yc-18q" id="l6X-OS-Y5v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
