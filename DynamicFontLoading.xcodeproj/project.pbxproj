@@ -17,6 +17,7 @@
 		A308C1731AD815B200DCAEFE /* UIFont+DynamicFontLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = A308C1721AD815B200DCAEFE /* UIFont+DynamicFontLoading.m */; };
 		A308C1761AD820F600DCAEFE /* Boku2-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A308C1741AD8193500DCAEFE /* Boku2-Regular.otf */; };
 		A308C1791AD824BA00DCAEFE /* KOZGOPRO-BOLD.otf in Resources */ = {isa = PBXBuildFile; fileRef = A308C1781AD824BA00DCAEFE /* KOZGOPRO-BOLD.otf */; };
+		A31C9CDA1AD828000089380D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A31C9CD91AD828000089380D /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A308C1721AD815B200DCAEFE /* UIFont+DynamicFontLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+DynamicFontLoading.m"; sourceTree = "<group>"; };
 		A308C1741AD8193500DCAEFE /* Boku2-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boku2-Regular.otf"; sourceTree = "<group>"; };
 		A308C1781AD824BA00DCAEFE /* KOZGOPRO-BOLD.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KOZGOPRO-BOLD.otf"; sourceTree = "<group>"; };
+		A31C9CD91AD828000089380D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		A308C13F1AD8135A00DCAEFE = {
 			isa = PBXGroup;
 			children = (
+				A31C9CD91AD828000089380D /* .gitignore */,
 				A308C14A1AD8135A00DCAEFE /* DynamicFontLoading */,
 				A308C1641AD8135A00DCAEFE /* DynamicFontLoadingTests */,
 				A308C1491AD8135A00DCAEFE /* Products */,
@@ -214,6 +217,7 @@
 				A308C15C1AD8135A00DCAEFE /* LaunchScreen.xib in Resources */,
 				A308C1761AD820F600DCAEFE /* Boku2-Regular.otf in Resources */,
 				A308C1591AD8135A00DCAEFE /* Images.xcassets in Resources */,
+				A31C9CDA1AD828000089380D /* .gitignore in Resources */,
 				A308C1791AD824BA00DCAEFE /* KOZGOPRO-BOLD.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +436,7 @@
 				A308C16D1AD8135A00DCAEFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A308C16E1AD8135A00DCAEFE /* Build configuration list for PBXNativeTarget "DynamicFontLoadingTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +445,7 @@
 				A308C1701AD8135A00DCAEFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
