@@ -27,21 +27,9 @@
 
 - (IBAction)loadFont:(id)sender {
     UIButton *button = (UIButton*)sender;
-    NSString *fontName, *fontFile;
-    
-    switch (button.tag) {
-        case 0:
-            fontName = @"KOZGOPRO-BOLD";
-            break;
-        case 1:
-            fontName = @"Boku2-Regular";
-            break;
-        default:
-            break;
-    }
-    fontFile = [[NSBundle mainBundle] pathForResource:fontName ofType:@"otf"];
+    NSString *fontFile = [[NSBundle mainBundle] pathForResource:@"KOZGOPRO-BOLD" ofType:@"otf"];
     [UIFont registerDynamicallyFontWithFileURL:fontFile];
-    [self.label setFont:[UIFont fontWithName:fontName size:15.0]];
+    [self.label setFont:[UIFont fontWithName:@"KOZGOPRO-BOLD" size:15.0]];
 }
 
 @end

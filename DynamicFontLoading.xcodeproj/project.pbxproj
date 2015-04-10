@@ -15,7 +15,6 @@
 		A308C15C1AD8135A00DCAEFE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A308C15A1AD8135A00DCAEFE /* LaunchScreen.xib */; };
 		A308C1681AD8135A00DCAEFE /* DynamicFontLoadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A308C1671AD8135A00DCAEFE /* DynamicFontLoadingTests.m */; };
 		A308C1731AD815B200DCAEFE /* UIFont+DynamicFontLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = A308C1721AD815B200DCAEFE /* UIFont+DynamicFontLoading.m */; };
-		A308C1761AD820F600DCAEFE /* Boku2-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A308C1741AD8193500DCAEFE /* Boku2-Regular.otf */; };
 		A308C1791AD824BA00DCAEFE /* KOZGOPRO-BOLD.otf in Resources */ = {isa = PBXBuildFile; fileRef = A308C1781AD824BA00DCAEFE /* KOZGOPRO-BOLD.otf */; };
 		A31C9CDA1AD828000089380D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A31C9CD91AD828000089380D /* .gitignore */; };
 /* End PBXBuildFile section */
@@ -46,7 +45,6 @@
 		A308C1671AD8135A00DCAEFE /* DynamicFontLoadingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicFontLoadingTests.m; sourceTree = "<group>"; };
 		A308C1711AD815B200DCAEFE /* UIFont+DynamicFontLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+DynamicFontLoading.h"; sourceTree = "<group>"; };
 		A308C1721AD815B200DCAEFE /* UIFont+DynamicFontLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+DynamicFontLoading.m"; sourceTree = "<group>"; };
-		A308C1741AD8193500DCAEFE /* Boku2-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boku2-Regular.otf"; sourceTree = "<group>"; };
 		A308C1781AD824BA00DCAEFE /* KOZGOPRO-BOLD.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KOZGOPRO-BOLD.otf"; sourceTree = "<group>"; };
 		A31C9CD91AD828000089380D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,7 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				A308C1781AD824BA00DCAEFE /* KOZGOPRO-BOLD.otf */,
-				A308C1741AD8193500DCAEFE /* Boku2-Regular.otf */,
 				A308C14C1AD8135A00DCAEFE /* Info.plist */,
 				A308C14D1AD8135A00DCAEFE /* main.m */,
 			);
@@ -215,7 +212,6 @@
 			files = (
 				A308C1571AD8135A00DCAEFE /* Main.storyboard in Resources */,
 				A308C15C1AD8135A00DCAEFE /* LaunchScreen.xib in Resources */,
-				A308C1761AD820F600DCAEFE /* Boku2-Regular.otf in Resources */,
 				A308C1591AD8135A00DCAEFE /* Images.xcassets in Resources */,
 				A31C9CDA1AD828000089380D /* .gitignore in Resources */,
 				A308C1791AD824BA00DCAEFE /* KOZGOPRO-BOLD.otf in Resources */,
